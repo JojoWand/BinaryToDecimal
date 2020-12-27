@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
+
 html,
 body {
+  color: white;
+  background-color: black;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -13,4 +17,28 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  margin: auto;
+  padding-top: 10px;
+}
+h1,
+h2,
+.Title {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+}
+
+.Title {
+  text-align: center;
+  font-size: 2rem;
+}
+.Normal-Input {
+  font-size: 1.2rem;
+  padding: 5px;
 }
